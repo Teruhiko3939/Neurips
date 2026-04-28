@@ -1,0 +1,40 @@
+# ================================================================
+# MAGI 最小構成 requirements.txt (pip 用)
+# インストール: pip install -r requirements.txt
+#
+# [注意] torch は計算機クラスタの CUDA バージョンに合わせて
+#        以下のように別途インストールしてください:
+#   CUDA 12.4: pip install torch --index-url https://download.pytorch.org/whl/cu124
+#   CUDA 12.1: pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   CUDA 11.8: pip install torch --index-url https://download.pytorch.org/whl/cu118
+# ================================================================
+
+# ── LLM エージェント ──────────────────────────────────────────
+langgraph
+grandalf
+langchain
+langchain-core
+langchain-openai
+langchain-community
+openai
+boto3
+
+# ── UI ───────────────────────────────────────────────────────
+streamlit
+
+# ── ユーティリティ ────────────────────────────────────────────
+python-dotenv
+httpx
+
+# ── 評価モジュール (evaluation/evaluation.py) ─────────────────
+torch
+sentence-transformers
+transformers
+bertopic
+bert-score
+rouge-score
+numpy
+datasets
+
+# ── RAGAS 評価モジュール (evaluation/evaluation_RAGAS*.py) ─────
+ragas

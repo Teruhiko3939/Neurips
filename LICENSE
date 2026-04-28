@@ -1,0 +1,46 @@
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+
+Copyright (c) 2026 Mitsubishi Electric Corporation
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives
+4.0 International License.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+You are free to:
+  Share — copy and redistribute the material in any medium or format
+
+Under the following terms:
+  Attribution    — You must give appropriate credit, provide a link to the license,
+                   and indicate if changes were made. You may do so in any reasonable manner,
+                   but not in any way that suggests the licensor endorses you or your use.
+  NonCommercial  — You may not use the material for commercial purposes.
+  NoDerivatives  — If you remix, transform, or build upon the material, you may not
+                   distribute the modified material.
+
+No additional restrictions — You may not apply legal terms or technological measures
+that legally restrict others from doing anything the license permits.
+
+---
+
+## Third-Party Dataset Licenses
+
+This repository uses data from the following third-party sources. Their licenses
+are separate from and independent of the CC BY-NC-ND 4.0 License above.
+
+### AMI Meeting Corpus
+
+- License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+- URL: https://creativecommons.org/licenses/by/4.0/
+- Reference: https://groups.inf.ed.ac.uk/ami/corpus/
+- Citation: Carletta, J. et al. (2005). The AMI Meeting Corpus: A Pre-announcement.
+  MLMI 2005, LNCS 3869.
+
+### ICSI Meeting Corpus / ICSI-plus NXT
+
+- License: LDC User Agreement (non-commercial research use)
+- LDC Catalog: https://catalog.ldc.upenn.edu/LDC2004S02
+- Reference: https://groups.inf.ed.ac.uk/ami/icsi/
+- Citation: Janin, A. et al. (2003). The ICSI Meeting Corpus. ICASSP 2003.
+- Note: Audio files (.sph, etc.) are subject to the LDC license and are NOT
+  included in this repository. Only text and annotation XML files are used.
