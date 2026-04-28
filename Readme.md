@@ -8,12 +8,25 @@ A research system for LLM-based meeting discussion generation and evaluation usi
 
 ```
 code/
-├── LICENSE                  # CC BY 4.0 (code) + third-party dataset notices
+├── LICENSE                  # CC BY-NC-ND 4.0 (code) + third-party dataset notices
 ├── Readme.md                # This file
 ├── requirements.txt         # Python dependencies
+├── run_single.py            # Single-agent inference entry point
 ├── sampler.py               # Evaluation runner (inference + scoring)
 ├── stats.py                 # Aggregate mean ± SD across run folders
 ├── sum.py                   # Cross-condition comparison + Wilcoxon test
+├── agent/
+│   └── prompts/
+│       └── prompts.py       # All LLM prompt templates used by agent nodes
+├── evaluation/
+│   ├── evaluation.py            # Custom evaluation metrics (BERTScore, diversity, etc.)
+│   ├── evaluation_helper.py     # Shared helpers for evaluation.py
+│   ├── evaluation_RAGAS.py      # RAGAS-based evaluation (relevancy, faithfulness, etc.)
+│   └── evaluation_RAGAS_helper.py  # RAGASevaluator class and helpers for RAGAS
+├── models/
+│   └── llm.py               # LLM wrapper (Azure OpenAI)
+├── utils/
+│   └── run_helper.py        # JSONL I/O, retry logic, runtime summary helpers
 ├── data/                    # Dataset preparation scripts (see data/README.md)
 │   ├── add_theme.py
 │   ├── prepare_icsi.py / prepare_helper_icsi.py
@@ -24,14 +37,14 @@ code/
     ├── ami_single_5/        # AMI, single-agent (gpt-5.1-chat) 
     ├── ami_multi_noaf/      # AMI, multi-agent, no argument framework (gpt-4.1)
     ├── ami_multi_af/        # AMI, multi-agent, with argument framework (gpt-4.1)
-    ├── icsi_single_4/　　　　# ICSI, single-agent (gpt-4.1)
-    ├── icsi_single_5/　　　　# ICSI, single-agent (gpt-5.1-chat) 
+    ├── icsi_single_4/       # ICSI, single-agent (gpt-4.1)
+    ├── icsi_single_5/       # ICSI, single-agent (gpt-5.1-chat) 
     ├── icsi_multi_noaf/     # ICSI, multi-agent, no argument framework (gpt-4.1)
     └── icsi_multi_af/       # ICSI, multi-agent, with argument framework (gpt-4.1)
 ```
 
-> **Note:** Agent, model, evaluation module, and utility code is not included in this repository.  
-> The scripts above depend on internal modules (`agent/`, `models/`, `evaluation/`, `utils/`, `const/`, `run_flow.py`, `run_single.py`) that must be provided separately.
+> **Note:** Some internal modules are not included in this repository.  
+> The scripts above depend on additional modules (`agent/` (excluding `prompts/`), `const/`, `run_flow.py`) that must be provided separately.
 
 ---
 
@@ -47,6 +60,59 @@ code/
 ---
 
 ## File Descriptions
+
+### `run_single.py`
+
+Single-agent inference entry point. Streams a prompt through the LLM and returns the full response.
+
+- `run_once(model, prompt)` — streams the model response and returns it as a string.
+- When run as `__main__`, reads a query interactively and writes output to `checkpoints/single_{timestamp}.jsonl`.
+
+---
+
+### `models/llm.py`
+
+LLM wrapper class that initialises the chat model based on the configured vendor.
+
+- `LLM(vendor_name, temperature)` — currently supports `LLM_VENDOR.AZURE` (Azure OpenAI).
+- Automatically adjusts temperature per deployment (e.g. `gpt-5.1-chat` → 1.0, `gpt-4.1` → 0.8).
+- Returns a LangChain `BaseChatModel` via `llm.getModel()`.
+
+---
+
+### `agent/prompts/prompts.py`
+
+All LLM prompt templates used by agent nodes.
+
+| Function | Description |
+|---|---|
+| `af_agent_prompt(agenda, instructions)` | Generates a Bipolar Argumentation Framework (BAF) from the agenda |
+| `prompt_agent_prompt(agenda, af, instructions, old_prompt)` | Creates per-argument agent prompts from the BAF |
+
+---
+
+### `evaluation/`
+
+| File | Description |
+|---|---|
+| `evaluation.py` | Custom metrics: argument diversity (`score_arg_div`), oppositionality (`score_opp`), faithfulness (`score_faith`), BERTScore-based input/output and reference/output similarity |
+| `evaluation_helper.py` | Shared helpers: GPU detection, text cleaning, embedding utilities |
+| `evaluation_RAGAS.py` | RAGAS-based evaluation for input→output and output→reference similarity (relevancy, faithfulness, ROUGE, semantic similarity, etc.) |
+| `evaluation_RAGAS_helper.py` | `RAGASevaluator` class and helpers for loading results, building datasets, and saving RAGAS scores |
+
+---
+
+### `utils/run_helper.py`
+
+Shared runtime utilities used across scripts.
+
+| Function | Description |
+|---|---|
+| `run_with_retry(action_name, fn, retries)` | Runs a callable with automatic retry on network errors (OpenAI / httpx) |
+| `append_jsonl(file_path, record)` | Appends a dict as a JSON line to a JSONL file |
+| `runtime_summary_record(...)` | Builds a `runtime_summary` dict for logging elapsed time |
+
+---
 
 ### `sampler.py`
 

@@ -85,6 +85,36 @@ def _load_stats_folder(base: Path, folder: str) -> dict[str, dict[str, float]]:
     return data
 
 
+def _load_stats_folder_with_sd(base: Path, folder: str) -> dict[str, dict[str, dict]]:
+    """Return {meeting_id: {metric: {mean, sd, n}}} from stats.json in *folder*."""
+    stats_path = base / folder / "stats.json"
+    if not stats_path.exists():
+        print(f"[WARN] stats.json not found: {stats_path}", file=sys.stderr)
+        return {}
+    with stats_path.open(encoding="utf-8") as f:
+        raw: dict = json.load(f)
+    data: dict[str, dict[str, dict]] = {}
+    for meeting_id, body in raw.items():
+        metrics_block = body.get("metrics", {})
+        metrics: dict[str, dict] = {}
+        for metric, vals in metrics_block.items():
+            if not isinstance(vals, dict) or "mean" not in vals:
+                continue
+            mu = vals["mean"]
+            sd = vals.get("sd", 0.0)
+            n  = vals.get("n", 1)
+            if not (isinstance(mu, (int, float)) and not isinstance(mu, bool) and math.isfinite(mu)):
+                continue
+            metrics[metric] = {
+                "mean": float(mu),
+                "sd":   float(sd) if isinstance(sd, (int, float)) and math.isfinite(sd) else 0.0,
+                "n":    int(n) if isinstance(n, int) else 1,
+            }
+        if metrics:
+            data[meeting_id] = metrics
+    return data
+
+
 def main() -> None:
     base = Path(__file__).resolve().parent / "results"
 
@@ -95,9 +125,10 @@ def main() -> None:
     use_stats = True
     # Folders to compare (for per-sample / Wilcoxon output).
     # Set to None to fall back to aggregate summary of a single folder.
-    folders: list[str] | None = ["ami_multi_noaf", "ami_multi_af"]  # e.g. None, ["single_4", "multi_af"]
+    folders: list[str] | None = ["multi_noaf", "multi_af"]
+    # ["ami_multi_noaf", "ami_multi_af"]  # e.g. None, ["single_4", "multi_af"]
     # Single-folder aggregate mode (used when folders is None)
-    single_folder = "ami_multi_af"
+    single_folder = "multi_af"
     # ----------------------------------------------------------------------
 
     filename_init = "eval_RAGAS_" if RAGAS_eval else "eval_"
@@ -169,26 +200,72 @@ def main() -> None:
                         print(f"{metric:{col_w}} {other:{col_w}} {n:>{col_n}} {stat:>10.3f} {p:>10.4f} {sig:>5}")
                     except ValueError as e:
                         print(f"{metric:{col_w}} {other:{col_w}} {n:>{col_n}} {'(skip: ' + str(e) + ')':>27}")
+
+        # ---- Fligner-Killeen test (variance) for selected metrics ------------------
+        FLIGNER_KILLEEN_METRICS = {
+            "score_in_out.N_view",
+            "score_in_out.Lexical_Diversity",
+            "score_opp.Oppositionality",
+        }
+        fligner_killeen_targets = [m for m in all_metrics_sorted if m in FLIGNER_KILLEEN_METRICS]
+        if fligner_killeen_targets and REF:
+            print()
+            print("[Fligner-Killeen test — variance comparison]")
+            header_lv = f"{'metric':{col_w}} {'folder':{col_w}} {'n':>{col_n}} {'stat':>10} {'p-value':>10} {'sig':>5}"
+            print(header_lv)
+            print("-" * len(header_lv))
+            for metric in fligner_killeen_targets:
+                for other in other_folders:
+                    other_data = all_data[other]
+                    common = sorted(set(ref_data) & set(other_data))
+                    xs = [ref_data[m][metric] for m in common if metric in ref_data[m] and metric in other_data[m]]
+                    ys = [other_data[m][metric] for m in common if metric in ref_data[m] and metric in other_data[m]]
+                    n = len(xs)
+                    if n < 2:
+                        continue
+                    try:
+                        result = stats.fligner(xs, ys)
+                        stat, p = result.statistic, result.pvalue
+                        sig = "***" if p < 0.001 else "**" if p < 0.01 else "*" if p < 0.05 else ""
+                        print(f"{metric:{col_w}} {other:{col_w}} {n:>{col_n}} {stat:>10.3f} {p:>10.4f} {sig:>5}")
+                    except ValueError as e:
+                        print(f"{metric:{col_w}} {other:{col_w}} {n:>{col_n}} {'(skip: ' + str(e) + ')':>27}")
         return
 
     # ---- aggregate summary (original mode) --------------------------------
     if use_stats:
-        # Load per-meeting means from stats.json and aggregate across meetings
-        folder_data = _load_stats_folder(base, single_folder)
-        if not folder_data:
+        # Load per-meeting means AND within-meeting SD/n from stats.json
+        folder_data_full = _load_stats_folder_with_sd(base, single_folder)
+        if not folder_data_full:
             print(f"[INFO] No stats.json data found: {base / single_folder}")
             return
-        agg: dict[str, list[float]] = defaultdict(list)
-        for meeting_metrics in folder_data.values():
-            for metric, val in meeting_metrics.items():
-                agg[metric].append(val)
-        print(f"[INFO] meetings={len(folder_data)}, source=stats.json")
+        # {metric: list of per-meeting {mean, sd, n}}
+        agg_full: dict[str, list[dict]] = defaultdict(list)
+        for meeting_metrics in folder_data_full.values():
+            for metric, vals in meeting_metrics.items():
+                agg_full[metric].append(vals)
+        print(f"[INFO] meetings={len(folder_data_full)}, source=stats.json (method C: propagated SE)")
+        print("-" * 100)
+        print(f"{'metric':60} {'grand_mean':>10} {'SE_grand':>10} {'95%CI':>18}")
+        print("-" * 100)
+        for name in sorted(agg_full.keys()):
+            entries = agg_full[name]
+            M = len(entries)
+            grand_mean = mean(e["mean"] for e in entries) if M else float("nan")
+            # SE_grand = (1/M) * sqrt( sum( (sd_i / sqrt(n_i))^2 ) )
+            se_grand = (1.0 / M) * math.sqrt(
+                sum((e["sd"] / math.sqrt(e["n"])) ** 2 for e in entries)
+            ) if M else float("nan")
+            ci_lo = grand_mean - 1.96 * se_grand
+            ci_hi = grand_mean + 1.96 * se_grand
+            print(f"{name:60} {grand_mean:>10.3f} {se_grand:>10.4f} [{ci_lo:.3f}, {ci_hi:.3f}]")
+        return
     else:
         files = sorted((base / single_folder).glob(f"{filename_init}*.jsonl"))
         if not files:
             print(f"[INFO] No {filename_init}*.jsonl files found: {base / single_folder}")
             return
-        agg = defaultdict(list)
+        agg: dict[str, list[float]] = defaultdict(list)
         record_count = 0
         for fp in files:
             for rec in _iter_jsonl_records(fp):

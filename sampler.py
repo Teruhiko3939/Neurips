@@ -18,7 +18,6 @@ from evaluation.evaluation_RAGAS import Sampler_RAGAS
 from models.llm import LLM
 from run_flow import phase_discussion, phase_prompt, phase_qa
 from run_single import run_once
-from utils.app_write_message import set_streamlit_mode
 from utils.run_helper import append_jsonl, run_with_retry, runtime_summary_record
 
 PKL_PATH = Path("data/dataset/icsi.pkl")
@@ -310,7 +309,6 @@ def main(
 		source_file: JSONL file name to load results from (None = execute new run).
 		meeting_id: Specific meeting ID to process (None = all meetings).
 	"""
-	set_streamlit_mode(False)
 	results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
 	os.makedirs(results_dir, exist_ok=True)
 
