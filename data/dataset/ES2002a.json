@@ -1,0 +1,2671 @@
+{
+  "theme": "{\"theme\": [{\"name\": \"国際市場向けリモコンの設計要件\", \"description\": \"この会議は、国際市場で販売するための新しいリモコンの設計要件について話し合う。\", \"conditions\": \"参加者はプロジェクトマネージャー、インダストリアルデザイナー、ユーザーインターフェース担当、マーケティング担当の4名。会議時間は25分。販売価格・原価・ターゲット市場・ユーザー特性に関する条件が与えられている。\"}]}",
+  "participants": [
+    {
+      "speaker": "A",
+      "name": "MEE006",
+      "role": "ID"
+    },
+    {
+      "speaker": "B",
+      "name": "FEE005",
+      "role": "PM"
+    },
+    {
+      "speaker": "C",
+      "name": "MEE007",
+      "role": "UI"
+    },
+    {
+      "speaker": "D",
+      "name": "MEE008",
+      "role": "ME"
+    }
+  ],
+  "discussion": [
+    {
+      "id": "ES2002a.topic.vkaraisk.1",
+      "topic_type": "other",
+      "description": "introduction of participants and their roles",
+      "quote": "[B] Okay. Right. this is the kick-off meeting for our project. and this is just what we're gonna be doing over the next twenty five minutes. first of all, just to kind of make sure that we all know each other, I'm Laura and I'm the project manager. Do you want to introduce yourself again? [D] Mm-hmm. Great. [A] Hi, I'm David and I'm supposed to be an industrial designer. [B] Okay. [D] And I'm Andrew and I'm our marketing [C] I'm Craig and I'm User Interface."
+    },
+    {
+      "id": "ES2002a.topic.vkaraisk.2",
+      "topic_type": "other",
+      "description": "project goals and design process",
+      "quote": "[B] Great. Okay. so we're designing a new remote control and Oh I have to record who's here actually. So that's David, Andrew and Craig, isn't it? And you all arrived on time. yeah so des design a new remote control., as you can see it's supposed to be original, trendy and user friendly. that's kind of our brief, as it were. and so there are three different stages to the design. I'm not really sure what you guys have already received in your emails. What did you get? [A] , I just got the project announcement about what the project is. Designing a remote control. That's about it, didn't get anything else. Did you get the same thing? [B] Mm-hmm. [D] Mm-hmm. Mm-hmm. Yeah, that's it. [C] Yeah. [D] Yeah."
+    },
+    {
+      "id": "ES2002a.topic.vkaraisk.3",
+      "topic_type": "other",
+      "description": "drawing animals on the whiteboard",
+      "quote": "[B] and at this point we get try out the whiteboard over there.. So you get to draw your favourite animal and sum up your favourite characteristics of it. So who would like to go first? [D] I will go. That's fine. [D] Alright. So This one here, right? [B] Mm-hmm. [D] Okay. Very nice. Alright. My favourite animal is A beagle. [D] charac favourite characteristics of it? Is that right?, right, well basically high priority for any animal for me is that they be willing to take a lot of physical affection from their family. And, yeah that they have lots of personality and be fit and in robust good health. So this is blue. Blue beagle. My family's beagle."
+    },
+    {
+      "id": "ES2002a.topic.vkaraisk.4",
+      "topic_type": "project budget",
+      "description": "",
+      "quote": "[B] Okay. what are we doing next?. Okay, we now need to discuss the project. so according to the brief we're gonna be selling this remote control for twenty five, and we're aiming to make fifty million. so we're gonna be selling this on an international scale. And we don't want it to cost any more than twelve fifty Euros, so fifty percent of the selling price. [D] 'Kay., can we just go over that again? [B] Sure. [D] Uh, so bas at twel Alright, yeah. Okay. So cost like production cost is twelve fifty, but selling price is that wholesale or retail? Like on the shelf. [B] All together. I dunno. I imagine That's a good question. [D] our sale anyway. Yeah, okay okay."
+    },
+    {
+      "id": "ES2002a.topic.vkaraisk.5",
+      "topic_type": "other",
+      "description": "possible issues with project goals",
+      "quote": "[B] But I don't know, I mean do you think the fact that it's going to be sold internationally will have a bearing on how we design it at all? [B] Think it will?. [D] Mm-hmm. Mm-hmm. [D] Well right away I'm wondering if there's th th, like with D_V_D_ players, if there are zones. frequencies or something as well as characters, different keypad styles and symbols. [B] Oh yeah, regions and stuff, yeah. Yeah. Okay. [A] Hmm."
+    },
+    {
+      "id": "ES2002a.topic.vkaraisk.7",
+      "topic_type": "other",
+      "description": "initial ideas about RC design",
+      "quote": "[D] Yeah, interesting thing about discussing production of a remote control for me is that l as you point out, I just don't think of remote controls as something people consciously assess in their purchasing habits. It's just like getting shoelaces with shoes or something. It just comes along. [B] Yeah, yeah. Oh. Five minutes to end of meeting. Oh, okay. We're a bit behind. [D] Do you know what I mean? Like so sort of like how do you I mean one way of looking at it would be, well the people producing television sets, maybe they have to buy remote controls. Or another way is maybe people who have T_V_ sets are really fed up with their remote control and they really want a better one or something. [A] Yeah. [C] I know My parents went out and bought remote controls because they got fed up having four or five different remote controls for each the house. So for them it was just how many devices control. [B] Yeah. Right, so do you think that should be a main design aim of our remote control d, do your satellite and your regular telly and your V_C_R_ and everything?"
+    },
+    {
+      "id": "ES2002a.topic.vkaraisk.9",
+      "topic_type": "closing",
+      "description": "",
+      "quote": "[B] Right, well so just to wrap up, the next meeting's gonna be in thirty minutes. So that's about ten to twelve by my watch. so inbetween now and then, as the industrial designer, you're gonna be working on the actual working design of it so you know what you're doing there. for user interface, technical functions, I guess that's like what we've been talking about, what it'll actually do. and marketing executive, [A] Yep. [B] you'll be just thinking about,, what requirements it has to fulfil and you'll all get instructions emailed to you, I guess. [D] Okay. [B] . [D] . Before we wrap up, just to make sure we're all on the same page here, um, do we We were given sort of an example of a coffee machine or something, right? Well,"
+    }
+  ],
+  "argument_units": {
+    "discussions": [
+      {
+        "id": "ES2002a.discussions.Erik.1",
+        "name": "ES2002a - Regions",
+        "text": "[D] Well right away I'm wondering if there's th th, like with D_V_D_ players, if there are zones. frequencies or something as well as characters, different keypad styles and symbols. [B] Oh yeah, regions and stuff, yeah. Yeah. Okay. [A] Hmm. [B] Yeah. Well for a remote control, do you think that will be I suppose depends on how complicated our remote control is. [D] . [D] I don't know. [D] Yeah. [A] It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons. [B] Yeah, yeah. Okay. [D] Yeah."
+      },
+      {
+        "id": "ES2002a.discussions.Erik.3",
+        "name": "ES2002a - Remote design wrap up",
+        "text": "[D] are we at ma right now on the assumption that our television remote control may have features which go beyond the television? Or are we keeping like a design commitment to television features? I don't know. Th [D] Yep. Yeah, sure. [D] Okay. [A] I think one factor would be production cost. [D] Okay, yeah. [A] Because there's a cap there, depends on how much you can cram into that price.. [B] Yeah. [D] Okay. [B] Mm-hmm. [D] Okay. [B] Yeah. [A] I think that that's the main factor. [B] Okay. Right, okay, that's the end of the meeting, then.. Okay."
+      },
+      {
+        "id": "ES2002a.discussions.Erik.4",
+        "name": "ES2002a - Remote functionality",
+        "text": "[D] Yeah, interesting thing about discussing production of a remote control for me is that l as you point out, I just don't think of remote controls as something people consciously assess in their purchasing habits. It's just like getting shoelaces with shoes or something. It just comes along. [B] Yeah, yeah. [B] Oh. [B] Five minutes to end of meeting. Oh, okay. We're a bit behind. [D] Do you know what I mean? Like so sort of like how do you I mean one way of looking at it would be, well the people producing television sets, maybe they have to buy remote controls. Or another way is maybe people who have T_V_ sets are really fed up with their remote control and they really want a better one or something. [A] Yeah. [B] Yeah. [B] Right, so do you think that should be a main design aim of our remote control d, do your satellite and your regular telly and your V_C_R_ and everything? [D] I think so. Yeah, yeah. [D] Yeah. [D] Well like, maybe what we could use is example of a successful other piece technology is palm pilots. They're gone from being just little scribble boards to cameras, M_P_ three players, telephones, [B] Mm-hmm. [D] Yeah, yeah. An [D] Yeah. Like, personally for me, at home I've combined the audio video of my television set and my D_V_D_ player and my C_D_ player. So they w all function together but I have different remote controls for each of them. So it's sort of ironic that that then they're in there [B] Mm-hmm. [B] Hmm. [D] part. [B] okay, I'd wel we're gonna have to wrap up pretty quickly in the next couple of minutes. I'll just check we've nothing else. Okay. so anything else anybody wants to add about what they don't like about remote controls they've used, what they would really like to be part of this new one at all? [A] And you keep losing them. [B] You keep losing them. Okay. [D] Mm. [A] Finding them is really a pain, you know. I mean it's usually quite small, or when you want it, it slipped behind the couch or it's kicked under the table. [D] Mm. Mm. [D] Mm-hmm. Mm-hmm. [B] Yeah. W You get those ones where, if you like, whistle or make a really high pitched noise they beep. There I mean is that something we'd want to include, do you think? [D] Yeah. [D] Yeah. [A] You know. [D] That's just really good id [D] Yep. [D] , sure. I remember when the first remote control my family had was on a cable. Actually had a cable between it and the T_V_ and big buttons that sort of, like on a blender or something. And,, when I think about what they are now, it's better, but actually it's still kind of,, like a massive junky thing on the table. Maybe we could think about how, could be more,, streamlined. S [D] Something like that, yeah. Or whatever would be technologically reasonable. [B] Okay. [B] Uh-huh, okay. Well I guess that's up to our industrial designer. [D] 'Cause it could be that f it could be that that doesn't make it any better, but that just the appeal of not having, these days r pe things in people's homes are becoming more and more chic,., nicer materials and might be [B] It looks better. [B] Yeah. [B] Okay. [B] Okay. [D] be worth exploring anyway. [C] ."
+      }
+    ],
+    "argument_units": [
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.1",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons."
+      },
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.2",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "I think one factor would be production cost."
+      },
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.3",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Because there's a cap there, depends on how much you can cram into that price."
+      },
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.4",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "I think that that's the main factor."
+      },
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.5",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.6",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "And you keep losing them."
+      },
+      {
+        "id": "ES2002a.A.argumentstructs.Erik.7",
+        "speaker": "A",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Finding them is really a pain, you know. I mean it's usually quite small, or when you want it, it slipped behind the couch or it's kicked under the table."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.1",
+        "speaker": "B",
+        "type": "Weak statement",
+        "type_id": "ae_2",
+        "quote": "Well for a remote control, do you think that will be I suppose depends on how complicated our remote control is."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.2",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah, yeah. Okay."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.3",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Oh yeah, regions and stuff, yeah. Yeah. Okay."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.4",
+        "speaker": "B",
+        "type": "Weak statement",
+        "type_id": "ae_2",
+        "quote": "I guess that's up to us, I mean you probably want some kind of unique selling point it, so,"
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.5",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.7",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Okay. Right, okay, that's the end of the meeting, then."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.8",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah, yeah."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.9",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.10",
+        "speaker": "B",
+        "type": "Yes/No issue",
+        "type_id": "ae_5",
+        "quote": "Right, so do you think that should be a main design aim of our remote control d, do your satellite and your regular telly and your V_C_R_ and everything?"
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.11",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.12",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Or even like,, notes about what you wanna watch. Like you might put in there I want to watch such and such and look a Oh that's a good idea. So extra functionalities."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.13",
+        "speaker": "B",
+        "type": "Open issue",
+        "type_id": "ae_3",
+        "quote": "Okay. so anything else anybody wants to add about what they don't like about remote controls they've used, what they would really like to be part of this new one at all?"
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.14",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "You keep losing them. Okay."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.15",
+        "speaker": "B",
+        "type": "Yes/No issue",
+        "type_id": "ae_5",
+        "quote": "Yeah. W You get those ones where, if you like, whistle or make a really high pitched noise they beep. There I mean is that something we'd want to include, do you think?"
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.16",
+        "speaker": "B",
+        "type": "Weak statement",
+        "type_id": "ae_2",
+        "quote": "Dunno. Okay maybe."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.17",
+        "speaker": "B",
+        "type": "Yes/No issue",
+        "type_id": "ae_5",
+        "quote": "Maybe like a touch screen or something?"
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.18",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Uh-huh, okay. Well I guess that's up to our industrial designer."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.19",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "It looks better."
+      },
+      {
+        "id": "ES2002a.B.argumentstructs.Erik.20",
+        "speaker": "B",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.C.argumentstructs.Erik.1",
+        "speaker": "C",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.C.argumentstructs.Erik.2",
+        "speaker": "C",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "My parents went out and bought remote controls because they got fed up having four or five different remote controls for each the house. So for them it was just how many devices control."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.1",
+        "speaker": "D",
+        "type": "Open issue",
+        "type_id": "ae_3",
+        "quote": "Well right away I'm wondering if there's th th, like with D_V_D_ players, if there are zones. frequencies or something as well as characters, different keypad styles and symbols."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.2",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "I don't know."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.3",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.4",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.5",
+        "speaker": "D",
+        "type": "Yes/No issue",
+        "type_id": "ae_5",
+        "quote": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television? Or are we keeping like a design commitment to television features?"
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.6",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "I don't know."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.7",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yep. Yeah, sure."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.8",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Okay."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.9",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Okay, yeah."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.10",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Okay."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.11",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Okay."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.12",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Alright."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.13",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah, interesting thing about discussing production of a remote control for me is that l as you point out, I just don't think of remote controls as something people consciously assess in their purchasing habits. It's just like getting shoelaces with shoes or something. It just comes along."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.14",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Do you know what I mean? Like so sort of like how do you I mean one way of looking at it would be, well the people producing television sets, maybe they have to buy remote controls. Or another way is maybe people who have T_V_ sets are really fed up with their remote control and they really want a better one or something."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.15",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": ""
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.16",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Right, so in function one of the priorities might be to combine as many uses"
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.17",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "I think so. Yeah, yeah."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.18",
+        "speaker": "D",
+        "type": "Weak statement",
+        "type_id": "ae_2",
+        "quote": "Well like, maybe what we could use is example of a successful other piece technology is palm pilots. They're gone from being just little scribble boards to cameras, M_P_ three players, telephones, everything, agenda.,, I wonder if we might add something new to the remote control market, such as the lighting in your house"
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.19",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah, yeah."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.20",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah. Like, personally for me, at home I've combined the audio video of my television set and my D_V_D_ player and my C_D_ player. So they w all function together but I have different remote controls for each of them. So it's sort of ironic that that then they're in there, the sound and everything it's just one system. But each one's got its own little part."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.21",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Yeah."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.22",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "That's just really good id"
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.23",
+        "speaker": "D",
+        "type": "Yes/No issue",
+        "type_id": "ae_5",
+        "quote": ", sure. I remember when the first remote control my family had was on a cable. Actually had a cable between it and the T_V_ and big buttons that sort of, like on a blender or something. And,, when I think about what they are now, it's better, but actually it's still kind of,, like a massive junky thing on the table. Maybe we could think about how, could be more,, streamlined. S"
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.24",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "Something like that, yeah. Or whatever would be technologically reasonable."
+      },
+      {
+        "id": "ES2002a.D.argumentstructs.Erik.25",
+        "speaker": "D",
+        "type": "Statement",
+        "type_id": "ae_1",
+        "quote": "'Cause it could be that f it could be that that doesn't make it any better, but that just the appeal of not having, these days r pe things in people's homes are becoming more and more chic,., nicer materials and might be be worth exploring anyway."
+      }
+    ]
+  },
+  "transcript": [
+    {
+      "id": "ES2002a.sync.70",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": "Okay.",
+      "turn": 1,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.72",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": "Right.",
+      "turn": 2,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.326",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 1,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.328",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Great.",
+      "turn": 2,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.4",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "Hi, I'm David and I'm supposed to be an industrial designer.",
+      "turn": 1,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.76",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Okay.",
+      "turn": 3,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.330",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "And I'm Andrew and I'm our marketing",
+      "turn": 3,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.288",
+      "speaker": "C",
+      "dialogue_act": "Inform",
+      "text": "I'm Craig and I'm User Interface.",
+      "turn": 1,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.332",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "expert.",
+      "turn": 4,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.78",
+      "speaker": "B",
+      "dialogue_act": "Other",
+      "text": "Great. Okay. so we're designing a new remote control and Oh I have to record who's here actually. So that's David, Andrew and Craig, isn't it?",
+      "turn": 4,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.80",
+      "speaker": "B",
+      "dialogue_act": "Other",
+      "text": "And you all arrived on time.",
+      "turn": 5,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.82",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "yeah so des design a new remote control., as you can see it's supposed to be original, trendy and user friendly. that's kind of our brief, as it were. and so there are three different stages to the design. I'm not really sure what you guys have already received in your emails. What did you get?",
+      "turn": 6,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.6",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": ", I just got the project announcement about what the project is. Designing a remote control. That's about it, didn't get anything else. Did you get the same thing?",
+      "turn": 2,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.84",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 7,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.334",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 5,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.336",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Mm-hmm. Yeah, that's it.",
+      "turn": 6,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.86",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Is that what everybody got? Okay.. So we're gonna have individual work and then a meeting about it. And repeat that process three times. and at this point we get try out the whiteboard over there.. So you get to draw your favourite animal and sum up your favourite characteristics of it. So who would like to go first?",
+      "turn": 8,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.290",
+      "speaker": "C",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah.",
+      "turn": 2,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.338",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Yeah.",
+      "turn": 7,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.340",
+      "speaker": "D",
+      "dialogue_act": "Offer",
+      "text": "I will go. That's fine.",
+      "turn": 8,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.346",
+      "speaker": "D",
+      "dialogue_act": "Elicit-Inform",
+      "text": "This one here, right?",
+      "turn": 9,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.90",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Mm-hmm.",
+      "turn": 9,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.348",
+      "speaker": "D",
+      "dialogue_act": "Other",
+      "text": "Okay. Very nice. Alright. My favourite animal",
+      "turn": 10,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.355",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "A beagle.",
+      "turn": 11,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.357",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "charac favourite characteristics of it? Is that right?, right, well basically high priority for any animal for me is that they be willing to take a lot of physical affection from their family. And, yeah that they have lots of personality and be fit and in robust good health. So this is blue. Blue beagle. My family's beagle.",
+      "turn": 12,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.94",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Yeah. Yeah.",
+      "turn": 10,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.294",
+      "speaker": "C",
+      "dialogue_act": "Inform",
+      "text": "Well, my favourite animal would be a monkey.",
+      "turn": 3,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.297",
+      "speaker": "C",
+      "dialogue_act": "Inform",
+      "text": "Then they're small cute and furry, and when planet of the apes becomes real, I'm gonna be up there with them.",
+      "turn": 4,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.100",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Right.",
+      "turn": 11,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.12",
+      "speaker": "A",
+      "dialogue_act": "Assess",
+      "text": "Cool.",
+      "turn": 3,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.102",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "You can take as long over this as you like, because we haven't got an awful lot to discuss. Ok we do. Don't feel like you're in a rush, anyway.",
+      "turn": 12,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.18",
+      "speaker": "A",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 4,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.104",
+      "speaker": "B",
+      "dialogue_act": "Suggest",
+      "text": "Ach why not We might have to get you up again then.",
+      "turn": 13,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.105",
+      "speaker": "B",
+      "dialogue_act": "Offer",
+      "text": "I don't know what mine is. I'm gonna have to think on the spot now.",
+      "turn": 14,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.365",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Impressionist.",
+      "turn": 13,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.22",
+      "speaker": "A",
+      "dialogue_act": "Stall",
+      "text": ".",
+      "turn": 5,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.23",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "Yeah.",
+      "turn": 6,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.25",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "Um, well anyway, I don't know, it's just the first animal I can think off the top of my head.. Yes. Big reason is 'cause I'm allergic to most animals. Allergic to animal fur, so fish was a natural choice.",
+      "turn": 7,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.111",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Ah.",
+      "turn": 15,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.27",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "And they're quite harmless and mild and interesting.",
+      "turn": 8,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.370",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm.",
+      "turn": 14,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.113",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Okay. God, I still don't know what I'm gonna write about..",
+      "turn": 16,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.372",
+      "speaker": "D",
+      "dialogue_act": "Be-Positive",
+      "text": "Superb sketch, by the way.",
+      "turn": 15,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.376",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yep.",
+      "turn": 16,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.117",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "That doesn't really look like him, actually.",
+      "turn": 17,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.119",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "He looks more like a pig, actually.",
+      "turn": 18,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.121",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Ah well.",
+      "turn": 19,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.378",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "I see a dog in there. Yep.",
+      "turn": 17,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.123",
+      "speaker": "B",
+      "dialogue_act": "Be-Positive",
+      "text": "Do you? Oh that's very good of you.",
+      "turn": 20,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.382",
+      "speaker": "D",
+      "dialogue_act": "Be-Positive",
+      "text": "Now I see a rooster.",
+      "turn": 18,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.127",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": ".",
+      "turn": 21,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.384",
+      "speaker": "D",
+      "dialogue_act": "Elicit-Inform",
+      "text": "What kind is it?",
+      "turn": 19,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.130",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "and he's quite wee as well so he doesn't take up too much space.",
+      "turn": 22,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.390",
+      "speaker": "D",
+      "dialogue_act": "Elicit-Inform",
+      "text": "Is he aware that th it's his own cha tail he's chasing?",
+      "turn": 20,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.134",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "It is. I think it is. He only does it after he's had his dinner and he'll just all of a sudden just get up and start chasing his tail 'round the living room.",
+      "turn": 23,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.394",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Hmm.",
+      "turn": 21,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.396",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Probably when he was little he got lots of attention for doing it and has forever been conditioned.",
+      "turn": 22,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.138",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Yeah, maybe.",
+      "turn": 24,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.140",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Maybe. Right, where did you find this? Just down here? Yeah.",
+      "turn": 25,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.142",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": "Okay.",
+      "turn": 26,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.146",
+      "speaker": "B",
+      "dialogue_act": "Suggest",
+      "text": "Okay, we now need to discuss the project.",
+      "turn": 27,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.148",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "so according to the brief we're gonna be selling this remote control for twenty five, and we're aiming to make fifty million. so we're gonna be selling this on an international scale. And we don't want it to cost any more than twelve fifty Euros, so fifty percent of the selling price.",
+      "turn": 28,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.400",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "'Kay.",
+      "turn": 23,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.402",
+      "speaker": "D",
+      "dialogue_act": "Suggest",
+      "text": ", can we just go over that again?",
+      "turn": 24,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.150",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Sure.",
+      "turn": 29,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.404",
+      "speaker": "D",
+      "dialogue_act": "Comment-About-Understanding",
+      "text": "Uh, so bas at twel Alright, yeah. Okay.",
+      "turn": 25,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.406",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "So cost like production cost is twelve fifty, but selling price is that wholesale or retail? Like on the shelf.",
+      "turn": 26,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.152",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "All together.",
+      "turn": 30,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.154",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "I dunno. I imagine That's a good question.",
+      "turn": 31,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.408",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "our sale anyway. Yeah, okay okay.",
+      "turn": 27,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.156",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "I imagine it probably is our sale actually because it's probably up to",
+      "turn": 32,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.158",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "the retailer to sell it for whatever price they want..",
+      "turn": 33,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.410",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Okay.",
+      "turn": 28,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.412",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 29,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.414",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Alright.",
+      "turn": 30,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.160",
+      "speaker": "B",
+      "dialogue_act": "Elicit-Assessment",
+      "text": "But I don't know, I mean do you think the fact that it's going to be sold internationally will have a bearing on how we design it at all?",
+      "turn": 34,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.162",
+      "speaker": "B",
+      "dialogue_act": "Comment-About-Understanding",
+      "text": "Think it will?.",
+      "turn": 35,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.418",
+      "speaker": "D",
+      "dialogue_act": "",
+      "text": "Mm-hmm.",
+      "turn": 31,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.420",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 32,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.422",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Well right away I'm wondering if there's th th, like with D_V_D_ players, if there are zones. frequencies or something as well as characters, different keypad styles and symbols.",
+      "turn": 33,
+      "argument_relations": [
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 36
+        },
+        {
+          "role": "source",
+          "relation_type": "Uncertain",
+          "related_speaker": "B",
+          "related_turn": 37
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 10
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.166",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Oh yeah, regions and stuff, yeah. Yeah. Okay.",
+      "turn": 36,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 33
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.168",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Yeah. Well for a remote control, do you think that will be I suppose depends on how complicated our remote control is.",
+      "turn": 37,
+      "argument_relations": [
+        {
+          "role": "source",
+          "relation_type": "Uncertain",
+          "related_speaker": "D",
+          "related_turn": 35
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 36
+        },
+        {
+          "role": "target",
+          "relation_type": "Uncertain",
+          "related_speaker": "D",
+          "related_turn": 33
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.41",
+      "speaker": "A",
+      "dialogue_act": "Backchannel",
+      "text": "Hmm.",
+      "turn": 9,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.423",
+      "speaker": "D",
+      "dialogue_act": "Stall",
+      "text": ".",
+      "turn": 34,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.425",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "I don't know.",
+      "turn": 35,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Uncertain",
+          "related_speaker": "B",
+          "related_turn": 37
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.427",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 36,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 37
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.43",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.",
+      "turn": 10,
+      "argument_relations": [
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 38
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 37
+        },
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 33
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.170",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Yeah, yeah. Okay.",
+      "turn": 38,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 10
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.429",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 37,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 10
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.45",
+      "speaker": "A",
+      "dialogue_act": "Assess",
+      "text": "So, possibly.",
+      "turn": 11,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.431",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Yeah. and then al the other thing international is on top of the price. I'm thinking",
+      "turn": 38,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.172",
+      "speaker": "B",
+      "dialogue_act": "Elicit-Inform",
+      "text": "What, just like in terms of the wealth of the country? Like how much money people have to spend on things?",
+      "turn": 39,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.439",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Or just like, basic product podi positioning, the twenty five Euro remote control might be a big hit in London, might not be such a big hit in Greece, who knows, something like that, yeah.",
+      "turn": 39,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.174",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Aye, I see what you mean, yeah.",
+      "turn": 40,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.176",
+      "speaker": "B",
+      "dialogue_act": "Offer",
+      "text": "Marketing. Good marketing thoughts. Oh gosh, I should be writing all this down..",
+      "turn": 41,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.442",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Yep.",
+      "turn": 40,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.444",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Right away I'm making some kind of assumptions about what what information we're given here, thinking, 'kay trendy probably means something other than just basic, something other than just standard.",
+      "turn": 41,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.178",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm.",
+      "turn": 42,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.180",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 43,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.182",
+      "speaker": "B",
+      "dialogue_act": "Elicit-Inform",
+      "text": "Yeah, yeah. how much does,, a remote control cost.",
+      "turn": 44,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.448",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Uh-huh.",
+      "turn": 42,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.184",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Well twenty five,",
+      "turn": 45,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.186",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "that's about like eighteen pounds or something, isn't it? Or no, is it as much as that? Sixteen seventeen eighteen pounds.",
+      "turn": 46,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.450",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 43,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.452",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yep.",
+      "turn": 44,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.454",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Yeah, I'd say so, yeah.",
+      "turn": 45,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.188",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": ", I dunno, I've never bought a remote control, so I don't know how how good a remote control that would get you..",
+      "turn": 47,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.456",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "No.",
+      "turn": 46,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.190",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "But yeah, I suppose it has to look kind of cool and gimmicky.",
+      "turn": 48,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.460",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 47,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.192",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": "right, okay.",
+      "turn": 49,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.194",
+      "speaker": "B",
+      "dialogue_act": "Elicit-Inform",
+      "text": "Let me just scoot on ahead here. Okay. well Does anybody have anything to add to the finance issue at all?",
+      "turn": 50,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.462",
+      "speaker": "D",
+      "dialogue_act": "Elicit-Inform",
+      "text": "Do we have any other background information on how that compares to",
+      "turn": 48,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.196",
+      "speaker": "B",
+      "dialogue_act": "Fragment",
+      "text": "Thin",
+      "turn": 51,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.198",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "No, actually. That would be useful, though, wouldn't it, if you knew like what your money would get you now.",
+      "turn": 52,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.466",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 49,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.47",
+      "speaker": "A",
+      "dialogue_act": "Backchannel",
+      "text": "Hmm.",
+      "turn": 12,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.468",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 50,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.200",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 53,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.470",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Yeah, interesting thing about discussing production of a remote control for me is that l as you point out, I just don't think of remote controls as something people consciously assess in their purchasing habits. It's just like getting shoelaces with shoes or something. It just comes along.",
+      "turn": 51,
+      "argument_relations": [
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 54
+        },
+        {
+          "role": "source",
+          "relation_type": "Elaboration",
+          "related_speaker": "D",
+          "related_turn": 52
+        },
+        {
+          "role": "source",
+          "relation_type": "Negative",
+          "related_speaker": "C",
+          "related_turn": 5
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.202",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah, yeah.",
+      "turn": 54,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 51
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.204",
+      "speaker": "B",
+      "dialogue_act": "Other",
+      "text": "Oh.",
+      "turn": 55,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.206",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Five minutes to end of meeting. Oh, okay. We're a bit behind.",
+      "turn": 56,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.472",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Do you know what I mean? Like so sort of like how do you I mean one way of looking at it would be, well the people producing television sets, maybe they have to buy remote controls. Or another way is maybe people who have T_V_ sets are really fed up with their remote control and they really want a better one or something.",
+      "turn": 52,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Elaboration",
+          "related_speaker": "D",
+          "related_turn": 51
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 13
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.49",
+      "speaker": "A",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah.",
+      "turn": 13,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 52
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.321",
+      "speaker": "C",
+      "dialogue_act": "Inform",
+      "text": "My parents went out and bought remote controls because they got fed up having four or five different remote controls for each the house. So for them it was just how many devices control.",
+      "turn": 5,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Negative",
+          "related_speaker": "D",
+          "related_turn": 51
+        },
+        {
+          "role": "source",
+          "relation_type": "Uncertain",
+          "related_speaker": "B",
+          "related_turn": 58
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.208",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah.",
+      "turn": 57,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.210",
+      "speaker": "B",
+      "dialogue_act": "Elicit-Assessment",
+      "text": "Right, so do you think that should be a main design aim of our remote control d, do your satellite and your regular telly and your V_C_R_ and everything?",
+      "turn": 58,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Uncertain",
+          "related_speaker": "C",
+          "related_turn": 5
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 53
+        },
+        {
+          "role": "source",
+          "relation_type": "Option",
+          "related_speaker": "D",
+          "related_turn": 55
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 57
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 58
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 59
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.480",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "I think so. Yeah, yeah.",
+      "turn": 53,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 58
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.482",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah.",
+      "turn": 54,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.484",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Well like, maybe what we could use is example of a successful other piece technology is palm pilots. They're gone from being just little scribble boards to cameras, M_P_ three players, telephones,",
+      "turn": 55,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Option",
+          "related_speaker": "B",
+          "related_turn": 58
+        },
+        {
+          "role": "source",
+          "relation_type": "Option",
+          "related_speaker": "B",
+          "related_turn": 60
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.212",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 59,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.216",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Or even like,, notes about what you wanna watch. Like you might put in there I want to watch such and such and look a Oh that's a good idea. So extra functionalities.",
+      "turn": 60,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Option",
+          "related_speaker": "D",
+          "related_turn": 55
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 56
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.488",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah, yeah. An",
+      "turn": 56,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 60
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.490",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Yeah. Like, personally for me, at home I've combined the audio video of my television set and my D_V_D_ player and my C_D_ player. So they w all function together but I have different remote controls for each of them. So it's sort of ironic that that then they're in there",
+      "turn": 57,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 58
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 63
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.218",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 61,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.494",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": ", the sound and everything it's just one system. But each one's got its own little",
+      "turn": 58,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 58
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 63
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.220",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Hmm.",
+      "turn": 62,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.496",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "part.",
+      "turn": 59,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 58
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 63
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.222",
+      "speaker": "B",
+      "dialogue_act": "Elicit-Inform",
+      "text": "okay, I'd wel we're gonna have to wrap up pretty quickly in the next couple of minutes. I'll just check we've nothing else. Okay. so anything else anybody wants to add about what they don't like about remote controls they've used, what they would really like to be part of this new one at all?",
+      "turn": 63,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 57
+        },
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 58
+        },
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 59
+        },
+        {
+          "role": "source",
+          "relation_type": "Option",
+          "related_speaker": "A",
+          "related_turn": 14
+        },
+        {
+          "role": "source",
+          "relation_type": "Option",
+          "related_speaker": "D",
+          "related_turn": 67
+        },
+        {
+          "role": "source",
+          "relation_type": "Option",
+          "related_speaker": "B",
+          "related_turn": 68
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.51",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "And you keep losing them.",
+      "turn": 14,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Option",
+          "related_speaker": "B",
+          "related_turn": 63
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 64
+        },
+        {
+          "role": "source",
+          "relation_type": "Elaboration",
+          "related_speaker": "A",
+          "related_turn": 15
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.224",
+      "speaker": "B",
+      "dialogue_act": "Other",
+      "text": "You keep losing them. Okay.",
+      "turn": 64,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 14
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.498",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm.",
+      "turn": 60,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.53",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "Finding them is really a pain, you know. I mean it's usually quite small, or when you want it, it slipped behind the couch or it's kicked under the table.",
+      "turn": 15,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Elaboration",
+          "related_speaker": "A",
+          "related_turn": 14
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 65
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.500",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm. Mm.",
+      "turn": 61,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.502",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm. Mm-hmm.",
+      "turn": 62,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.226",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Yeah. W You get those ones where, if you like, whistle or make a really high pitched noise they beep. There I mean is that something we'd want to include, do you think?",
+      "turn": 65,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 15
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 63
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 65
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.504",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 63,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 65
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.506",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah.",
+      "turn": 64,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.55",
+      "speaker": "A",
+      "dialogue_act": "Elicit-Assessment",
+      "text": "You know.",
+      "turn": 16,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.508",
+      "speaker": "D",
+      "dialogue_act": "Fragment",
+      "text": "That's just really good id",
+      "turn": 65,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 65
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.510",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yep.",
+      "turn": 66,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.512",
+      "speaker": "D",
+      "dialogue_act": "Suggest",
+      "text": ", sure. I remember when the first remote control my family had was on a cable. Actually had a cable between it and the T_V_ and big buttons that sort of, like on a blender or something. And,, when I think about what they are now, it's better, but actually it's still kind of,, like a massive junky thing on the table. Maybe we could think about how, could be more,, streamlined. S",
+      "turn": 67,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Option",
+          "related_speaker": "B",
+          "related_turn": 63
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.232",
+      "speaker": "B",
+      "dialogue_act": "Other",
+      "text": "My goodness.",
+      "turn": 66,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.234",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Still feels quite primitive.",
+      "turn": 67,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.236",
+      "speaker": "B",
+      "dialogue_act": "Suggest",
+      "text": "Maybe like a touch screen or something?",
+      "turn": 68,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Option",
+          "related_speaker": "B",
+          "related_turn": 63
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 68
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.513",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Something like that, yeah. Or whatever would be technologically reasonable.",
+      "turn": 68,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 68
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 70
+        },
+        {
+          "role": "source",
+          "relation_type": "Elaboration",
+          "related_speaker": "D",
+          "related_turn": 69
+        },
+        {
+          "role": "source",
+          "relation_type": "Elaboration",
+          "related_speaker": "D",
+          "related_turn": 70
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.238",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 69,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.240",
+      "speaker": "B",
+      "dialogue_act": "Suggest",
+      "text": "Uh-huh, okay. Well I guess that's up to our industrial designer.",
+      "turn": 70,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 68
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.515",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "'Cause it could be that f it could be that that doesn't make it any better, but that just the appeal of not having, these days r pe things in people's homes are becoming more and more chic,., nicer materials and might be",
+      "turn": 69,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Elaboration",
+          "related_speaker": "D",
+          "related_turn": 68
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 71
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 72
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.242",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "It looks better.",
+      "turn": 71,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 69
+        },
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 70
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.244",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Yeah.",
+      "turn": 72,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 69
+        },
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 70
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.246",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Okay.",
+      "turn": 73,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.248",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Okay.",
+      "turn": 74,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.517",
+      "speaker": "D",
+      "dialogue_act": "Suggest",
+      "text": "be worth exploring anyway.",
+      "turn": 70,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Elaboration",
+          "related_speaker": "D",
+          "related_turn": 68
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 71
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 72
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.323",
+      "speaker": "C",
+      "dialogue_act": "Backchannel",
+      "text": ".",
+      "turn": 6,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.250",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Right, well so just to wrap up, the next meeting's gonna be in thirty minutes. So that's about ten to twelve by my watch. so inbetween now and then, as the industrial designer, you're gonna be working on the actual working design of it so you know what you're doing there. for user interface, technical functions, I guess that's like what we've been talking about, what it'll actually do. and marketing executive,",
+      "turn": 75,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.57",
+      "speaker": "A",
+      "dialogue_act": "Assess",
+      "text": "Yep.",
+      "turn": 17,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.252",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "you'll be just thinking about,, what requirements it has to fulfil and you'll all get instructions emailed to you, I guess.",
+      "turn": 76,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.519",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 71,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.254",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": ".",
+      "turn": 77,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.256",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Yeah, so the functional design stage is next, I guess.",
+      "turn": 78,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.260",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": "And",
+      "turn": 79,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.262",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "and that's the end of the meeting.",
+      "turn": 80,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.527",
+      "speaker": "D",
+      "dialogue_act": "Inform",
+      "text": "Before we wrap up, just to make sure we're all on the same page here, um, do we We were given sort of an example of a coffee machine or something, right? Well,",
+      "turn": 72,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.266",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 81,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.268",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Uh-huh, yeah.",
+      "turn": 82,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.59",
+      "speaker": "A",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 18,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.531",
+      "speaker": "D",
+      "dialogue_act": "Elicit-Inform",
+      "text": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television? Or are we keeping like a design commitment to television features? I don't know.",
+      "turn": 73,
+      "argument_relations": [
+        {
+          "role": "source",
+          "relation_type": "Uncertain",
+          "related_speaker": "D",
+          "related_turn": 73
+        },
+        {
+          "role": "target",
+          "relation_type": "Uncertain",
+          "related_speaker": "D",
+          "related_turn": 73
+        },
+        {
+          "role": "source",
+          "relation_type": "Option",
+          "related_speaker": "A",
+          "related_turn": 19
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.270",
+      "speaker": "B",
+      "dialogue_act": "Fragment",
+      "text": "Th",
+      "turn": 83,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.533",
+      "speaker": "D",
+      "dialogue_act": "Backchannel",
+      "text": "Yep. Yeah, sure.",
+      "turn": 74,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.535",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 75,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.61",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "I think one factor would be production cost.",
+      "turn": 19,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Option",
+          "related_speaker": "D",
+          "related_turn": 73
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 76
+        },
+        {
+          "role": "source",
+          "relation_type": "Elaboration",
+          "related_speaker": "A",
+          "related_turn": 20
+        },
+        {
+          "role": "source",
+          "relation_type": "Elaboration",
+          "related_speaker": "A",
+          "related_turn": 21
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.537",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Okay, yeah.",
+      "turn": 76,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 19
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.62",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "Because there's a cap there, depends on how much you can cram into that price..",
+      "turn": 20,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Elaboration",
+          "related_speaker": "A",
+          "related_turn": 19
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 84
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 77
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.274",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 84,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 20
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.539",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 77,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 20
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.276",
+      "speaker": "B",
+      "dialogue_act": "Backchannel",
+      "text": "Mm-hmm.",
+      "turn": 85,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.541",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 78,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.64",
+      "speaker": "A",
+      "dialogue_act": "Inform",
+      "text": "I think that that's the main factor.",
+      "turn": 21,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Elaboration",
+          "related_speaker": "A",
+          "related_turn": 19
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "B",
+          "related_turn": 87
+        },
+        {
+          "role": "source",
+          "relation_type": "Positive",
+          "related_speaker": "D",
+          "related_turn": 79
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.278",
+      "speaker": "B",
+      "dialogue_act": "Assess",
+      "text": "Yeah.",
+      "turn": 86,
+      "argument_relations": []
+    },
+    {
+      "id": "ES2002a.sync.280",
+      "speaker": "B",
+      "dialogue_act": "Inform",
+      "text": "Okay. Right, okay, that's the end of the meeting, then..",
+      "turn": 87,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 21
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.543",
+      "speaker": "D",
+      "dialogue_act": "Assess",
+      "text": "Okay.",
+      "turn": 79,
+      "argument_relations": [
+        {
+          "role": "target",
+          "relation_type": "Positive",
+          "related_speaker": "A",
+          "related_turn": 21
+        }
+      ]
+    },
+    {
+      "id": "ES2002a.sync.282",
+      "speaker": "B",
+      "dialogue_act": "Stall",
+      "text": ",",
+      "turn": 88,
+      "argument_relations": []
+    }
+  ],
+  "summary": {
+    "abstractive": {
+      "overall": "The project manager introduced the upcoming project to the team members and then the team members participated in an exercise in which they drew their favorite animal and discussed what they liked about the animal. The project manager talked about the project finances and selling prices. The team then discussed various features to consider in making the remote.",
+      "actions": "The industrial designer will work on the working design of the remote. The user interface designer will work on the technical functions of the remote. The marketing executive will work on what requirements the remote has to fulfill",
+      "decisions": "The remote will sell for 25 Euro. The remote will be sold on an international scale. The production costs cannot exceed 12.50 Euro.",
+      "problems": "Whether the remote will be used exclusively for televisions."
+    },
+    "decisions": [
+      {
+        "id": "ES2002a.decision.melissa.1",
+        "text": "[B] Okay, we now need to discuss the project. so according to the brief we're gonna be selling this remote control for twenty five, and we're aiming to make fifty million. so we're gonna be selling this on an international scale. And we don't want it to cost any more than twelve fifty Euros, so fifty percent of the selling price. [D] 'Kay., can we just go over that again? [B] Sure. [D] Uh, so bas at twel Alright, yeah. Okay. So cost like production cost is twelve fifty, but selling price is that wholesale or retail? Like on the shelf. [B] All together. I dunno. I imagine That's a good question. [D] our sale anyway. Yeah, okay okay. [B] I imagine it probably is our sale actually because it's probably up to the retailer to sell it for whatever price they want.. [D] Okay. Mm-hmm. Alright."
+      },
+      {
+        "id": "ES2002a.decision.melissa.2",
+        "text": "[B] But I don't know, I mean do you think the fact that it's going to be sold internationally will have a bearing on how we design it at all? [B] Think it will?. [D] Mm-hmm. Mm-hmm. [D] Well right away I'm wondering if there's th th, like with D_V_D_ players, if there are zones. frequencies or something as well as characters, different keypad styles and symbols. [B] Oh yeah, regions and stuff, yeah. Yeah. Okay. [A] Hmm. [B] Yeah. Well for a remote control, do you think that will be I suppose depends on how complicated our remote control is. [D] . I don't know. Yeah. [A] It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons. [B] Yeah, yeah. Okay. [D] Yeah. [A] So, possibly. [B] What, just like in terms of the wealth of the country? Like how much money people have to spend on things? [D] chara just a characteristic of the Just Or just like, basic product podi positioning, the twenty five Euro remote control might be a big hit in London, might not be such a big hit in Greece, who knows, something like that, yeah. [B] Aye, I see what you mean, yeah. Marketing. Good marketing thoughts. Oh gosh, I should be writing all this down.."
+      },
+      {
+        "id": "ES2002a.decision.melissa.3",
+        "text": "[B] Yeah, yeah. how much does,, a remote control cost. [D] Uh-huh. [B] Well twenty five, that's about like eighteen pounds or something, isn't it? Or no, is it as much as that? Sixteen seventeen eighteen pounds. [D] Mm-hmm. Yep. Yeah, I'd say so, yeah. [B] , I dunno, I've never bought a remote control, so I don't know how how good a remote control that would get you.. [B] But yeah, I suppose it has to look kind of cool and gimmicky. [D] Mm-hmm. [B] right, okay."
+      }
+    ],
+    "participant_summaries": {
+      "A": {
+        "participant_abstract": "Meeting was called to kick-off the TV remote control project. A brief was given on the aims, budget and team for the project and product. The team consists of Laura (Project Manager), Creg (User-Interface Designer), Andrew (Marketing) and myself (David Industrial Designer).",
+        "participant_actions": "A.. no clear stated action or directives were issued or given during the meeting. B.. implicit request to \"go think about it\"",
+        "participant_decisions": "No substantial decisions about the project were made.",
+        "participant_problems": "A.. Defining the project b.. Describing the product c.. Defining what the functions of the product. A.. Deciding and defining who is going off to do what? We have no feel for the strengths and weaknesses of the team and what our particular roles are for this project."
+      },
+      "B": {
+        "participant_abstract": "The aim of this first \"kick-off\" meeting was to give the team members a chance to get to know each other, become familiar with the whiteboard and microphones, and discuss the project. My role was to make sure that the meeting kept to its time frame and agenda. I also tried to generate some enthusiasm for the project and a friendly atmosphere.",
+        "participant_actions": "David (ID) - limitations imposed by costs - what functionalities can we provide with the financing restraints. Andrew (ME) - how to market product to different countries, selling points. Craig (UID) - technical spec",
+        "participant_decisions": "Product should control multiple devices, eg VCR, DVD, Stereo, etc . Product should look good/trendy .",
+        "participant_problems": "Not all of the team members were very vocal - expect this will change after they have carried out their tasks for the next meeting. I think we're all still a little unsure of what our roles are."
+      },
+      "C": {
+        "participant_abstract": "Paragraph of coherent text to summarize the meeting as a whole from your role's perspective. It was suggested that the control be small and, if possible, multi-functioned -- providing services beyond the requirements of TV. David will be looking into viability of providing multiple funcitons in one device.",
+        "participant_actions": "David: Checking viability of providing multiple functions in one device. Andrew: Find out what market 35EURO remote would appeal to. Me: Technical functionality.",
+        "participant_decisions": "Should be easy to use Should provide enough functionality that it is attractive to a large market at the set price of 25EURO.",
+        "participant_problems": "Can lots of devices be controlled? How large should device be?"
+      },
+      "D": {
+        "participant_abstract": "During this short meeting our team of four came together for the first time and took the opportunity to meet each other as well as deal with initial planning of a new television remote control design / production project. Each team member had already been assigned a role in the project however, the meeting did not call upon specific expertise or action planning. It was, rather, a general brainstorming discussion, setting out some of the goals that will be used to guide our work in the execution of this project. The meeting concluded with a vague action plan that each team member will begin work on. It was agreed that the next meeting would happen in 30 minutes.",
+        "participant_decisions": "It was decided that the product will be international. Will aim to be trendy. Will be based on a television control priority. Will have a revenue target. Will be manufactured for 12.50? And sold for 25? Will aim to offer new features that are both functional and aesthetic in character. will aim to appeal to the chic, fashionable current designs."
+      }
+    }
+  },
+  "missing_files": []
+}
